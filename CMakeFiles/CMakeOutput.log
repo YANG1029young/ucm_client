@@ -1,0 +1,618 @@
+The target system is: Linux -  - aarch64
+The host system is: Linux - 4.8.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc -march=armv8-a;-mtune=cortex-a57.cortex-a53;--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/3.8.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ -march=armv8-a;-mtune=cortex-a57.cortex-a53;--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5812/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5812.dir/build.make CMakeFiles/cmTC_f5812.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5812.dir/testCCompiler.c.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_f5812.dir/testCCompiler.c.o   -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f5812
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5812.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f5812.dir/testCCompiler.c.o  -o cmTC_f5812 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2603/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2603.dir/build.make CMakeFiles/cmTC_f2603.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o   -c /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f2603
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2603.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o  -o cmTC_f2603 
+Using built-in specs.
+COLLECT_GCC=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
+COLLECT_LTO_WRAPPER=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-mpc=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux' '-march=armv8-a' '-mtune=cortex-a57.cortex-a53' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_f2603' '-mlittle-endian' '-mabi=lp64'
+ /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw5JIbq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_f2603 /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux' '-march=armv8-a' '-mtune=cortex-a57.cortex-a53' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_f2603' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f2603/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f2603.dir/build.make CMakeFiles/cmTC_f2603.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o   -c /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f2603]
+  ignore line: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2603.dir/link.txt --verbose=1]
+  ignore line: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o  -o cmTC_f2603 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-mpc=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux' '-march=armv8-a' '-mtune=cortex-a57.cortex-a53' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_f2603' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw5JIbq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_f2603 /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+    arg [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccw5JIbq.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f2603] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crt1.o] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0] ==> dir [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0]
+    arg [-L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib] ==> dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib]
+    arg [-L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0] ==> dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0]
+    arg [-L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib] ==> dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_f2603.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0] ==> [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0]
+  collapse library dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib] ==> [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib]
+  collapse library dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0] ==> [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0]
+  collapse library dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib] ==> [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0;/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib;/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0;/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98dc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98dc4.dir/build.make CMakeFiles/cmTC_98dc4.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98dc4.dir/feature_tests.c.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -std=c11 -o CMakeFiles/cmTC_98dc4.dir/feature_tests.c.o   -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_98dc4
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98dc4.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_98dc4.dir/feature_tests.c.o  -o cmTC_98dc4 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b0ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b0ae.dir/build.make CMakeFiles/cmTC_6b0ae.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b0ae.dir/feature_tests.c.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -std=c99 -o CMakeFiles/cmTC_6b0ae.dir/feature_tests.c.o   -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6b0ae
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b0ae.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_6b0ae.dir/feature_tests.c.o  -o cmTC_6b0ae 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4bc1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bc1c.dir/build.make CMakeFiles/cmTC_4bc1c.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bc1c.dir/feature_tests.c.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -std=c90 -o CMakeFiles/cmTC_4bc1c.dir/feature_tests.c.o   -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4bc1c
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bc1c.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_4bc1c.dir/feature_tests.c.o  -o cmTC_4bc1c 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a317c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a317c.dir/build.make CMakeFiles/cmTC_a317c.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a317c.dir/testCXXCompiler.cxx.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_a317c.dir/testCXXCompiler.cxx.o -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a317c
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a317c.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_a317c.dir/testCXXCompiler.cxx.o  -o cmTC_a317c 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63f99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63f99.dir/build.make CMakeFiles/cmTC_63f99.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o -c /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_63f99
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63f99.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_63f99 
+Using built-in specs.
+COLLECT_GCC=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
+COLLECT_LTO_WRAPPER=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-mpc=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux' '-march=armv8-a' '-mtune=cortex-a57.cortex-a53' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_63f99' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAjJZYD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_63f99 /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux' '-march=armv8-a' '-mtune=cortex-a57.cortex-a53' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_63f99' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_63f99/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_63f99.dir/build.make CMakeFiles/cmTC_63f99.dir/build]
+  ignore line: [make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o -c /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_63f99]
+  ignore line: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63f99.dir/link.txt --verbose=1]
+  ignore line: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_63f99 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --with-mpc=/home/lkh/test/build/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/:/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux' '-march=armv8-a' '-mtune=cortex-a57.cortex-a53' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_63f99' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2 -plugin /opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAjJZYD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_63f99 /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crt1.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crti.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o -L/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0 -L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o /opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+    arg [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccAjJZYD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_63f99] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crt1.o] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0] ==> dir [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0]
+    arg [-L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib] ==> dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib]
+    arg [-L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0] ==> dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0]
+    arg [-L/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib] ==> dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_63f99.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0/crtend.o] ==> ignore
+    arg [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0] ==> [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0]
+  collapse library dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib] ==> [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib]
+  collapse library dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0] ==> [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0]
+  collapse library dir [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib] ==> [/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/7.3.0;/opt/poky/2.4.2/sysroots/aarch64-poky-linux/lib;/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/7.3.0;/opt/poky/2.4.2/sysroots/aarch64-poky-linux/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_560a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_560a7.dir/build.make CMakeFiles/cmTC_560a7.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_560a7.dir/feature_tests.cxx.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++1z -o CMakeFiles/cmTC_560a7.dir/feature_tests.cxx.o -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_560a7
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_560a7.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_560a7.dir/feature_tests.cxx.o  -o cmTC_560a7 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39f65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39f65.dir/build.make CMakeFiles/cmTC_39f65.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39f65.dir/feature_tests.cxx.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++14 -o CMakeFiles/cmTC_39f65.dir/feature_tests.cxx.o -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_39f65
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f65.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_39f65.dir/feature_tests.cxx.o  -o cmTC_39f65 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_429ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_429ac.dir/build.make CMakeFiles/cmTC_429ac.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_429ac.dir/feature_tests.cxx.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++11 -o CMakeFiles/cmTC_429ac.dir/feature_tests.cxx.o -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_429ac
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_429ac.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_429ac.dir/feature_tests.cxx.o  -o cmTC_429ac 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a0fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a0fd.dir/build.make CMakeFiles/cmTC_8a0fd.dir/build
+make[1]: Entering directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a0fd.dir/feature_tests.cxx.o
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++98 -o CMakeFiles/cmTC_8a0fd.dir/feature_tests.cxx.o -c /home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8a0fd
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a0fd.dir/link.txt --verbose=1
+/opt/poky/2.4.2/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a -mtune=cortex-a57.cortex-a53 --sysroot=/opt/poky/2.4.2/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_8a0fd.dir/feature_tests.cxx.o  -o cmTC_8a0fd 
+make[1]: Leaving directory '/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

@@ -1,0 +1,3 @@
+/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/rebuild_cache.dir
+/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/SoftwareUpdate.dir
+/home/yang/yang_share/ucm_client/pro_ucm_client_cmake/CMakeFiles/edit_cache.dir
